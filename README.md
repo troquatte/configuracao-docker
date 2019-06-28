@@ -11,4 +11,4 @@
 <h2>Ferramentas</h2>
 
 <h3>Postgress</h3>
-Terminal: docker run --name database -e POSTGRES_PASSWORD=docker -p 5433:5432 -d postgres
+Terminal: docker run --name database -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
