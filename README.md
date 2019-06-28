@@ -5,6 +5,7 @@
   <li>docker ps: Lista os contaners em funcionamento</li>
   <li>docker ps -a: Lista os contaners em funcionando e não.</li>
   <li>docker start {IMAGE NAMES}: Starta o Docker</li>
+  <li>docker logs {IMAGE NAMES}: Logs de erro Docker</li>
 </ul>
 
 <h2>Ferramentas</h2>
