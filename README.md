@@ -11,4 +11,3 @@
 
 <h3>Postgress</h3>
 Terminal: docker run --name database -e POSTGRES_PASSWORD=docker -p 5433:5432 -d postgres
-# configuracao-docker
