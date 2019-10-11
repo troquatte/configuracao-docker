@@ -6,6 +6,7 @@
   <li>docker ps -a: Lista os contaners em funcionando e não.</li>
   <li>docker start {IMAGE NAMES}: Starta o Docker</li>
   <li>docker logs {IMAGE NAMES}: Logs de erro Docker</li>
+  <li>docker run -p{porta, exp: 3000}:{porta, exp: 3000} {IMAGE ID} serve p startar uma imagem</li>
 </ul>
 
 <h2>Ferramentas</h2>
