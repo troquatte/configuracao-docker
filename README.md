@@ -9,7 +9,14 @@
   <li>docker run -p{porta, exp: 3000}:{porta, exp: 3000} {IMAGE ID} serve p startar uma imagem</li>
 </ul>
 
+<h2>Comandos Extras</h2>
+ //Apaga todas os containers
+ docker rm -f $(docker ps -a -q)
+  
+ //Apaga as images
+ docker rmi -f $(docker images -a -q)
+ 
 <h2>Ferramentas</h2>
-
+ 
 <h3>Postgress</h3>
 Terminal: docker run --name database -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
