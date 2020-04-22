@@ -11,12 +11,12 @@
 
 <h2>Comandos Extras</h2>
  <p>
- -Apaga todas os containers <br>
+ <strong>- Apaga todas os containers</strong> <br>
  docker rm -f $(docker ps -a -q)
 </p>
    
 <p>
- -Apaga as images <br>
+ <strong>- Apaga as images</strong> <br>
  docker rmi -f $(docker images -a -q)
 </p>
   
