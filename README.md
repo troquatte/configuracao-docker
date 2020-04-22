@@ -10,12 +10,16 @@
 </ul>
 
 <h2>Comandos Extras</h2>
+ <p>
  -Apaga todas os containers <br>
  docker rm -f $(docker ps -a -q)
-  
+</p>
+   
+<p>
  -Apaga as images <br>
  docker rmi -f $(docker images -a -q)
- 
+</p>
+  
 <h2>Ferramentas</h2>
  
 <h3>Postgress</h3>
