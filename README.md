@@ -10,10 +10,10 @@
 </ul>
 
 <h2>Comandos Extras</h2>
- //Apaga todas os containers
+ -Apaga todas os containers <br>
  docker rm -f $(docker ps -a -q)
   
- //Apaga as images
+ -Apaga as images <br>
  docker rmi -f $(docker images -a -q)
  
 <h2>Ferramentas</h2>
