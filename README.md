@@ -16,7 +16,7 @@
 </p>
    
 <p>
- <strong>- Apaga as images</strong> <br>
+ <strong>- Apaga todas as images</strong> <br>
  docker rmi -f $(docker images -a -q)
 </p>
   
